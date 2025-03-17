@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    }
+
+body > header {
+    background-color:black;
+    padding: 16px 0;
+    color:#fff;
+
+}
+
+header .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px; /*esportes e economia*/
+}
+header li a {
+    color:#fff;
+    text-decoration: none;
+
+}
+
+.container{
+    width: 1366px;
+    margin:0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+.articles article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+section h2, 
+.articles article  {
+    margin-bottom: 16px;
+}
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a {
+    background-color:rgb(22, 22, 102);
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+
+}.articles article a:hover{
+    text-decoration:underline;
+}
+
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 24px;
+}
+section h2{
+    font-size: 32px;
+}
+#sports {
+    background-color: rgba(0, 255, 0, 0.10);
+}
+#sports .articles article a {
+    background-color: green;
+}
+
+#economy {
+    background-color:#f1f1bb;
+}
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+#technology {
+    background-color: rgb(223, 203, 242);
+}
+#technology .articles article a {
+    background-color:rgb(169, 91, 241)
+}
+#entertainment {
+    background-color:rgb(234, 190, 190)
+}
+#entertainment .articles article a{
+    background-color: rgb(223, 57, 57);
+}
+.img-musica {
+    width: 640px;
+    height: 426px;
+    object-fit: cover;
+}
+.img-campo {
+    width: 410px;
+    height: 273px;
+    object-fit: cover;  
+}
+.img-petroleo {
+    width: 410px;
+    height: 273px;
+    object-fit: cover; 
+}
